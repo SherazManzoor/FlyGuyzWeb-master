@@ -97,7 +97,7 @@ jQuery(function () {
  */
 
 let windowWidth = window.innerWidth;
-console.log(windowWidth);
+// console.log(windowWidth);
 
 if (windowWidth >= 1200) {
   var Slider = function () {
