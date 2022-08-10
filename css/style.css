@@ -224,12 +224,12 @@ body h6 {
   border-radius: 2em;
   filter: var(--filter_dropShadow);
   box-shadow: var(--box_shadow);
-  padding: 0 2em;
+  padding: 0 1em;
   min-height: 6em;
 }
 
 .navbar .navbar-nav .nav-item {
-  padding: 1.5em 1.5em;
+  padding: 1.5em 1em;
 }
 
 .navbar .navbar-nav .nav-item .nav-link {
