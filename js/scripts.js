@@ -1,3 +1,24 @@
+/**
+ * !=========================================
+ *  Reset Navbar on Click Start
+ * !=========================================
+ */
+
+// nav-links array
+const navLinks = document.getElementsByClassName('nav-link');
+const checkBox = document.getElementById('flexCheckDefault');
+for(navLink of navLinks) {
+  navLink.addEventListener('click', () => {
+    checkBox.checked = false;
+  });
+}
+
+/**
+ * !=========================================
+ *  Reset Navbar on Click End
+ * !=========================================
+ */
+
 /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
 particlesJS.load('particles-js', 'js/particles/particles.json', function () { });
 
