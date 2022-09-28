@@ -223,7 +223,7 @@ const data = {
     "Launchpad Private Round",
     "Private Round",
     "Team",
-    "Startegic Reserve",
+    "Strategic Reserve",
     "Launchpad Public Round",
     "DAO",
     "Advisors"
