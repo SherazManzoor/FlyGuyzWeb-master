@@ -217,19 +217,20 @@ if (windowWidth >= 1200) {
 
 const data = {
   labels: [
-    "Play2Earn",
-    "Private Round",
-    "Ecosystem / Treasury",
-    "Launchpad Private Round",
-    "Startegic Reserve",
-    "team",
-    "Launchpad Public Round",
+    "Play2Earn & Staking",
     "Liquidity",
+    "Seed Round",
+    "Launchpad Private Round",
+    "Private Round",
+    "Team",
+    "Strategic Reserve",
+    "Launchpad Public Round",
+    "DAO",
     "Advisors"
   ],
   datasets: [{
     label: 'Tokenomics',
-    data: [25, 20, 15, 10, 10, 7, 6, 5, 2],
+    data: [40, 6, 6, 5, 8, 10, 13, 6, 4, 2],
     backgroundColor: [
       'rgba(255, 0, 0, 0.75)',
       'rgba(255, 191, 0, 0.75)',
@@ -239,7 +240,8 @@ const data = {
       'rgba(0, 128, 255, 0.75)',
       'rgba(0, 0, 255, 0.75)',
       'rgba(255, 0, 255, 0.75)',
-      'rgba(255, 0, 128, 0.75)'
+      'rgba(255, 0, 128, 0.75)',
+      'rgba(253, 246, 241, 0.75)'
     ],
     borderColor: 'rgba(255, 124, 110, 0.1)',
     hoverOffset: 4
