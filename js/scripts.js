@@ -217,20 +217,20 @@ if (windowWidth >= 1200) {
 
 const data = {
   labels: [
-    "Play2Earn & Staking",
+    "Ecosystem",
     "Liquidity",
-    "Seed Round",
-    "Launchpad Private Round",
-    "Private Round",
-    "Team",
-    "Strategic Reserve",
-    "Launchpad Public Round",
-    "DAO",
-    "Advisors"
+    "Seed Sale",
+    "Private Sale 1",
+    "Private Sale 2",
+    "Team & Advisors",
+    "Development",
+    "Public Sale",
+    "Marketing",
+    "Airdrop"
   ],
   datasets: [{
     label: 'Tokenomics',
-    data: [40, 6, 6, 5, 8, 10, 13, 6, 4, 2],
+    data: [35, 11, 5, 5, 5, 7, 10, 11, 10, 1],
     backgroundColor: [
       'rgba(255, 0, 0, 0.75)',
       'rgba(255, 191, 0, 0.75)',
